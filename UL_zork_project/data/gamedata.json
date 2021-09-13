@@ -1,0 +1,147 @@
+{
+        "rooms": [
+        {
+                "name": "Train Station",
+                "north": "Town Square",
+                "dialogue": ["You step off the train on to the station's sole platform. It seems you are the only taker for this stop. [Press 'Next' to continue.]/\nYou can only see the warden and a police officer. That must be your welcome. [Select a character name and press 'Talk' to talk.]",
+                             ""
+                             ],
+                "npcs": [
+                        {
+                                "name": "Officer Hughes",
+                                "dialogue": [
+
+                                        "Hughes: Good day Madam. Detective Emily White, correct?/\nEmily: It is, nice to meet you./\nHughes: No no, the pleasure is all mine, truly. I've heard the tales of your brilliance, but to get to meet you in person is truly an honour. The number of cases you've cracked at your age is simply astounding./\nEmily: Thanks, I try. But that aside, could I have a rundown of the situation?/\nHughes: Well I don't have the details for you, you'll have to make your way to the station - the police one - for that. It's just off the town square, you can't miss it. I would lead the way but I must stay here on guard duty./\nEmily: Thank you officer, I best get going. [Use the compass buttons to move between areas.]",
+                                        ""
+
+                                ]
+                        },
+                        {
+                            "name": "Train Warden",
+                            "dialogue": [
+
+                                "Thanks you for travelling with us today.",
+                                ""
+
+                            ]
+                        }
+                        ],
+
+                "items": [
+                        {
+                                "name": "Phone",
+                                "collectable": false,
+                                "dialogue": [
+                                "A payphone. It seems out of use.",
+                                ""
+                                ]
+                        },
+                        {
+                            "name": "Suitcase",
+                            "collectable": true,
+                            "dialogue": [
+                            "Your suitcase of detective equipment. Obtained Suitcase.",
+                            ""
+                            ]
+                        }
+                        ]
+        },
+
+        {
+                "name": "Town Square",
+                "north": "Medical Clinic",
+                "south": "Train Station",
+                "east": "Mansion Front",
+                "west": "Police Station",
+                "dialogue": [
+                "The centre of town. It seems rather quiet.",
+                ""
+                ],
+                "npcs": [
+                {
+                    "name": "Old Lady",
+                    "dialogue": [
+                    "Old Lady: Oh why hello there young lady. I haven't seen you around Staton before./\nEmily: Hello. I'm just here for a short stay./\nOld Lady: Oh no - terrible time for a holiday now. Bad, bad things happening around these parts. Poor Mr. Cappenbell, he was a lovely man, didn't deserve 7 stabs, one or two would have done just fine./\nEmily: Indeed. About the murder, did you notice any strange activity around the town in the days or weeks leading up to it?/\nOld Lady: Why yes indeed I did. My dog Nickel - lovely boy, a Dachshund - would you believe he brought in a whole dead rat to the house last Tuesday. I was mortified, you should have seen the size of the thing. And its teeth oh -/\nEmily: Ah, I understand. Thank you./\nEmily: (I should move on, fast.)"
+                    ]
+                }
+                ]
+        },
+
+{
+        "name": "Medical Clinic",
+        "south": "Town Square",
+        "dialogue": [
+        "You enter under a red cross through the door of the Stevens Medical Clinic./\nA nurse looks up from her stack of papers at the reception.",
+        ""
+        ],
+        "npcs": [
+        {
+            "name": "Clinic Nurse",
+            "dialogue": [
+            "Nurse: Hello and welcome to the Stevens Clinic. Unfortunately, Dr. Stevens is out on business at the moment, so if you have an appointment I'm afraid you will have to reschedule. Can I take a message?/\nEmily: Oh no I'm not here for a checkup. I was wondering if you knew anything about the recent murder?/\nNurse: Oh well that's the business the doctor is out on. He's at the mansion to give more statements on the autopsy. Awful thing altogether. If you wanted any specific details you could go there and ask around, but the officers will likely kick you away./\nEmily: That's great, thank you for your help."
+            ]
+        }
+        ],
+        "items": [
+        ]
+},
+
+{
+        "name": "Police Station",
+        "east": "Town Square",
+        "dialogue": [
+        "You enter the small Staton police department building. The officer at the desk waves to you.",
+        ""
+        ],
+        "npcs": [
+        {
+            "name": "Officer Cornwall",
+            "dialogue": [
+            "Cornwall: Detective White, a pleasure to meet you. My name is Cornwall./\nEmily: Pleasure is all mine./\nCornwall: I'll keep it brief: The town's prominent landlord Frederick Cappenbell was found dead in his estate yesterday evening at around a quarter to 9./\nCornwall: That much I'm sure you know, otherwise you wouldn't have been called. For the finer details you should talk with Detective Klaus at the scene. The mansion can be found easily if you walk east from the square./\nCornwall: You have free reign to investigate as you see fit, so carry out interrogations and gather evidence as you please./\nCornwall: You should also come back here after looking around the scene, we're developing some photos that may be of interest to you./\nCornwall: We're counting on you."
+            ]
+        }
+        ],
+        "items": [
+        ]
+},
+
+{
+        "name": "Mansion Front",
+        "north": "Mansion Lobby",
+        "west": "Town Square",
+        "dialogue": [
+        "",
+        ""
+        ],
+        "npcs": [
+        {
+            "name": "Officer Farrell",
+            "dialogue": [
+            "Farrell: Ms. White, welcome, we've been waiting for you. Detective Klaus is right inside in the lobby, go straight ahead./\n???: Is what I would say./\n???: Unfortunately however, there is no murder. There is no mystery./\nEmily: .../\n???: This game is incomplete. If you could even call it that./\nEmily: .../\n???: I wouldn't even call it a prototype, personally. Just a mish-mash of computer code. 1s and 0s./\n???: But isn't it amazing really, that a little machine can do this much? It's astonishing what humans can do. /\n???: Arranging some semiconductors in a certain way let us create devices that could save the world - or end it./\n???: But anyway, throwing in some philosophical ramblings won't make this project any more complete./\n???: So long Emily, so long player. May your adventures unfold in earnest some day in the future."
+            ]
+        }
+        ],
+        "items": [
+        ]
+},
+
+{
+        "name": "Mansion Lobby",
+        "dialogue": [
+        "...",
+        ""
+        ],
+        "npcs": [
+        ],
+        "items": [
+        {
+            "name": "Letter",
+            "collectable": false,
+            "dialogue": [
+            ":)/\nSeriously how do you program flags into a game I don't understand"
+            ]
+        }
+        ]
+}
+        ]
+}
